@@ -1,0 +1,29 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset and generated arrays
+data/raw/
+data/processed/
+*.npy
+*.npz
+
+# Model checkpoints and temporary runs
+outputs/checkpoints/
+outputs/runs/
+
+# Local configuration
+.env
+# Model artifacts
+*.pth
+*.pt
+*.ckpt
+
+# Environment files
+.env.*
+!.env.example
